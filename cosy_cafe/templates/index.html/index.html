@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="hero" style="background-image: url('{{ url_for('static', filename='images/banner.jpg') }}');">
+    <h1>COSY CAFÉ</h1>
+    <p>Crafted Coffee. Crafted Moments.</p>
+    <a href="/menu" class="cta-btn">View Menu</a>
+</div>
+{% endblock %}

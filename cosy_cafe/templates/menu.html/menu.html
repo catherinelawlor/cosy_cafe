@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Our Menu</h1>
+
+<div class="menu-grid">
+
+    <div class="menu-item">
+        <img src="{{ url_for('static', filename='images/menu_croissant.webp') }}">
+        <p>Chocolate Croissant — €3.00</p>
+    </div>
+
+    <div class="menu-item">
+        <img src="{{ url_for('static', filename='images/menu_iced_latte.webp') }}">
+        <p>Iced Latte — €4.20</p>
+    </div>
+
+    <div class="menu-item">
+        <img src="{{ url_for('static', filename='images/menu_macha.jpg') }}">
+        <p>Matcha Latte — €4.80</p>
+    </div>
+
+    <div class="menu-item">
+        <img src="{{ url_for('static', filename='images/menu_strawberry_tart.jpg') }}">
+        <p>Strawberry Tart — €3.50</p>
+    </div>
+
+</div>
+{% endblock %}

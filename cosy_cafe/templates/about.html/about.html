@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>About Us</h1>
+
+<p>
+    At Cosy Café, we believe coffee is more than a drink — it's a moment.
+    Our baristas craft every cup with care, using artisan beans and traditional brewing methods.
+</p>
+
+<img class="about-img" src="{{ url_for('static', filename='images/brewing_equipment.jpg') }}">
+{% endblock %}

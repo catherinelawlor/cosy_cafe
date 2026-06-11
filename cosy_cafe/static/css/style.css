@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    background: #1a1a1a;
+    color: #ffffff;
+    font-family: "Lato", sans-serif;
+}
+
+nav {
+    background: #111;
+    padding: 15px;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #c7a17a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content {
+    padding: 40px;
+}
+
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+.cta-btn {
+    padding: 12px 20px;
+    background: #c7a17a;
+    color: #1a1a1a;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.menu-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #333;
+}
+
+.gallery img {
+    width: 30%;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.about-img {
+    width: 60%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    background: #2b2b2b;
+    border: none;
+    color: white;
+}
+
+.contact-form button {
+    padding: 12px 20px;
+    background: #c7a17a;
+    border: none;
+    color: #1a1a1a;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.success {
+    margin-top: 20px;
+    color: #c7a17a;
+}
+
+.error-container {
+    text-align: center;
+}
+
+.error-img {
+    width: 50%;
+    border-radius: 12px;
+    margin: 20px 0;
+}
+
+.back-btn {
+    padding: 10px 18px;
+    background: #c7a17a;
+    color: #1a1a1a;
+    text-decoration: none;
+    border-radius: 8px;
+}
